@@ -1,0 +1,38 @@
+<!--
+	Author: Roxanne Calderon
+	Date: 4.30.2014
+	Purpose: This is the javascript functionality for Tic Tac Toad. This provide the AI, 
+			 the button changes, and the noises.
+			 
+	** Sounds Credit To: soundbible.com 
+       Font Credit: dafont.com "From Cartoon Blocks" 
+
+
+ -->
+ 
+<html>
+	<head>
+	 <link rel = "stylesheet" type = "text/css" href = "tictactoe.css"> 
+	    <script src = "tictactoe.js"> </script>
+	</head>
+	
+    <body>    
+	    <!-- all this does is creates a grid (with CSS help) and a title. The grid elements are on onclicks, which stars the game. -->
+		<center> <div id = "main">
+		 <center><div id = "title"> <img src="frogtitle.png" id="tictactoad" /> </div>
+	     <div id = "grid"> <img src="lilytest3.png" id = "1" onClick ="frogClick(1)" />  </div>
+		 <div id = "grid"> <img src="lilytest3.png"  id = "2" onClick ="frogClick(2)" /> </div> 
+		 <div id = "grid"> <img src="lilytest3.png"  id = "3" onClick ="frogClick(3)" /></div> 
+		 <div id = "grid"> <img src="lilytest3.png"  id = "4" onClick ="frogClick(4)"/></div> 
+		 <div id = "grid"> <img src="lilytest3.png"  id = "5" onClick ="frogClick(5)"/></div>
+		 <div id = "grid"> <img src="lilytest3.png"  id = "6" onClick ="frogClick(6)"/></div> 
+		 <div id = "grid"> <img src="lilytest3.png"  id = "7"  onClick ="frogClick(7)"/> </div>
+		 <div id = "grid"> <img src="lilytest3.png"  id = "8"  onClick ="frogClick(8)" /> </div>
+		 <div id = "grid"> <img src="lilytest3.png"  id = "9" onClick ="frogClick(9)"/></div> 
+		 <div id = "hidden">  <img src= " " id = 10> 
+						   	  <img src= " " id = 11  onClick= "timeToReload()"> </div>
+		 
+		</center> 
+		 </div> </center>
+	</body> 
+</html> 

@@ -1,0 +1,47 @@
+#main
+{
+    height: 710px;
+    width: 600px;
+	border: 0px ;
+	border-radius: 5px;
+	display: block;
+	background-color: #689CD2;  
+}
+
+#grid
+{
+    height: 160px;
+    width: 200px;
+	border: 0px ;
+    border-radius: 5px;  
+	display: block;
+	background-color: #689CD2;
+	float:left; 
+	
+} 
+#title
+{
+	margin-left:30;
+	margin-right:auto;
+    height: 120px;
+    width: auto;
+	border: 0px ;
+    border-radius: 5px;  
+	display: block;
+	background-color: #689CD2;
+	float:left; 
+	
+} 
+
+#hidden
+{
+	width: 600px;
+	border-radius: 0px;  
+	float:left; 
+	background-color: #689CD2;
+} 
+
+body
+{
+	background-color: #689CD2;
+} 
