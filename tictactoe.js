@@ -300,7 +300,7 @@ function drawCheck()
 /* calls up win image, and lets again be pressed to reload the page. */
 function winImage()
 {
-	document.getElementById(10).src = "http://i.imgur.com/vpyM0Xk.png"
+	document.getElementById(10).src = "youwin.png"; 
 	document.getElementById(11).src = "again.png";
 	reloading = true; 
 } 
@@ -308,7 +308,7 @@ function winImage()
 /* calls up lose image, and lets again be pressed to reload the page. */
 function loseImage()
 {
-	document.getElementById(10).src = "http://i.imgur.com/7HfhWNb.png";
+	document.getElementById(10).src = "youlose.png";
 	document.getElementById(11).src = "again.png";
 	reloading = true; 
 } 
